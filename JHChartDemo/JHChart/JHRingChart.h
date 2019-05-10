@@ -12,6 +12,11 @@
 #define k_Width_Scale  (self.frame.size.width / [UIScreen mainScreen].bounds.size.width)
 
 /**
+ *  Data source title Array
+ */
+@property (nonatomic, strong) NSArray * valueDataTitlesArr;
+
+/**
  *  Data source Array
  */
 @property (nonatomic, strong) NSArray * valueDataArr;
@@ -27,4 +32,8 @@
  *  Ring Chart width
  */
 @property (nonatomic, assign) CGFloat ringWidth;
+
+
+@property (nonatomic, assign) BOOL hideValue;
+
 @end
