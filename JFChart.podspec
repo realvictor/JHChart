@@ -54,10 +54,10 @@ s.source_files ="JHChartDemo/JHChart *", "*{h,m}"
   #  profile URL.
   #
 
-  s.author             = { "China131" => "13162255392@163.com" }
-  # Or just: s.author    = "China131"
-  # s.authors            = { "China131" => "13162255392@163.com" }
-  # s.social_media_url   = "http://twitter.com/China131"
+  s.author             = { "victor" => "vicotr@gmail.com" }
+  # Or just: s.author    = "victor"
+  # s.authors            = { "victor" => "vicotr@gmail.com" }
+  # s.social_media_url   = "http://twitter.com/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
