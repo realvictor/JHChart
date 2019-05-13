@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JFChart"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "This repo provide some charts for us."
 
   # This description is used to generate tags and improve search results.
