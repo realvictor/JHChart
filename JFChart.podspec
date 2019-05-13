@@ -39,9 +39,9 @@ Pod::Spec.new do |s|
   #
 
  # s.license      = { :type => "MIT", :file => "File_license"}
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" 
+ # s.license      = { :type => "MIT", :file => "FILE_LICENSE" 
 }
- # s.source	 ={ :git => "https://github.com/realvictor/JHChart.git", :tag => "1.0.0"
+ # s.source	 ={ :git => "https://github.com/realvictor/JHChart.git", :tag => s.version
 }
 s.source_files ="JHChartDemo/JHChart *", "*{h,m}" 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ s.source_files ="JHChartDemo/JHChart *", "*{h,m}"
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  s.source       = { :git => "https://github.com/realvictor/JHChart.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/realvictor/JHChart.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
