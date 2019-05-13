@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JHChart"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "This repo provide some charts for us."
   s.license      = "MIT"
   s.description  = "i am fine,This repo provide some charts for us. "
