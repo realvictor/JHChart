@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "JHChart"
+  s.name         = "JFChart"
   s.version      = "0.0.1"
   s.summary      = "This repo provide some charts for us."
 
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
  # s.license      = { :type => "MIT", :file => "File_license"}
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" 
 }
- # s.source	 ={ :git => "https://github.com/China131/JHChart.git", :tag => "0.0.1"
+ # s.source	 ={ :git => "https://github.com/realvictor/JHChart.git", :tag => "0.0.1"
 }
 s.source_files ="JHChartDemo/JHChart *", "*{h,m}" 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ s.source_files ="JHChartDemo/JHChart *", "*{h,m}"
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  s.source       = { :git => "https://github.com/China131/JHChart.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/realvictor/JHChart.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
