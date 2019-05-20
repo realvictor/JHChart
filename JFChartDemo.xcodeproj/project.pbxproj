@@ -83,7 +83,7 @@
 		AA441C301CE1684D0056993D /* JHColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColumnChart.m; sourceTree = "<group>"; };
 		AA57D8A71CD9C492003EA0A7 /* JHShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowInfoView.h; sourceTree = "<group>"; };
 		AA57D8A81CD9C492003EA0A7 /* JHShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowInfoView.m; sourceTree = "<group>"; };
-		AA5E2BAE1CBA298F00FC19EE /* JHChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5E2BAE1CBA298F00FC19EE /* JFChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E2BB21CBA298F00FC19EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA5E2BB41CBA298F00FC19EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA5E2BB51CBA298F00FC19EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,10 +93,10 @@
 		AA5E2BBD1CBA298F00FC19EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA5E2BC01CBA298F00FC19EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5E2BC21CBA298F00FC19EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA5E2BC71CBA298F00FC19EE /* JHChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5E2BC71CBA298F00FC19EE /* JFChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E2BCB1CBA298F00FC19EE /* JHChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHChartDemoTests.m; sourceTree = "<group>"; };
 		AA5E2BCD1CBA298F00FC19EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA5E2BD21CBA298F00FC19EE /* JHChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5E2BD21CBA298F00FC19EE /* JFChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E2BD61CBA298F00FC19EE /* JHChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHChartDemoUITests.m; sourceTree = "<group>"; };
 		AA5E2BD81CBA298F00FC19EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5E2BE51CBA2B3100FC19EE /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
@@ -168,9 +168,9 @@
 		AA5E2BA51CBA298F00FC19EE = {
 			isa = PBXGroup;
 			children = (
-				AA5E2BB01CBA298F00FC19EE /* JHChartDemo */,
-				AA5E2BCA1CBA298F00FC19EE /* JHChartDemoTests */,
-				AA5E2BD51CBA298F00FC19EE /* JHChartDemoUITests */,
+				AA5E2BB01CBA298F00FC19EE /* JFChartDemo */,
+				AA5E2BCA1CBA298F00FC19EE /* JFChartDemoTests */,
+				AA5E2BD51CBA298F00FC19EE /* JFChartDemoUITests */,
 				AA5E2BAF1CBA298F00FC19EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,18 +178,18 @@
 		AA5E2BAF1CBA298F00FC19EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA5E2BAE1CBA298F00FC19EE /* JHChartDemo.app */,
-				AA5E2BC71CBA298F00FC19EE /* JHChartDemoTests.xctest */,
-				AA5E2BD21CBA298F00FC19EE /* JHChartDemoUITests.xctest */,
+				AA5E2BAE1CBA298F00FC19EE /* JFChartDemo.app */,
+				AA5E2BC71CBA298F00FC19EE /* JFChartDemoTests.xctest */,
+				AA5E2BD21CBA298F00FC19EE /* JFChartDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA5E2BB01CBA298F00FC19EE /* JHChartDemo */ = {
+		AA5E2BB01CBA298F00FC19EE /* JFChartDemo */ = {
 			isa = PBXGroup;
 			children = (
 				AAF615181CBF9E7F00E066C3 /* GIFResource */,
-				AA5E2BE41CBA29CF00FC19EE /* JHChart */,
+				AA5E2BE41CBA29CF00FC19EE /* JFChart */,
 				AA5E2BB41CBA298F00FC19EE /* AppDelegate.h */,
 				AA5E2BB51CBA298F00FC19EE /* AppDelegate.m */,
 				AA5E2BB71CBA298F00FC19EE /* ViewController.h */,
@@ -202,7 +202,7 @@
 				AA5E2BC21CBA298F00FC19EE /* Info.plist */,
 				AA5E2BB11CBA298F00FC19EE /* Supporting Files */,
 			);
-			path = JHChartDemo;
+			path = JFChartDemo;
 			sourceTree = "<group>";
 		};
 		AA5E2BB11CBA298F00FC19EE /* Supporting Files */ = {
@@ -213,25 +213,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AA5E2BCA1CBA298F00FC19EE /* JHChartDemoTests */ = {
+		AA5E2BCA1CBA298F00FC19EE /* JFChartDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				AA5E2BCB1CBA298F00FC19EE /* JHChartDemoTests.m */,
 				AA5E2BCD1CBA298F00FC19EE /* Info.plist */,
 			);
-			path = JHChartDemoTests;
+			path = JFChartDemoTests;
 			sourceTree = "<group>";
 		};
-		AA5E2BD51CBA298F00FC19EE /* JHChartDemoUITests */ = {
+		AA5E2BD51CBA298F00FC19EE /* JFChartDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				AA5E2BD61CBA298F00FC19EE /* JHChartDemoUITests.m */,
 				AA5E2BD81CBA298F00FC19EE /* Info.plist */,
 			);
-			path = JHChartDemoUITests;
+			path = JFChartDemoUITests;
 			sourceTree = "<group>";
 		};
-		AA5E2BE41CBA29CF00FC19EE /* JHChart */ = {
+		AA5E2BE41CBA29CF00FC19EE /* JFChart */ = {
 			isa = PBXGroup;
 			children = (
 				AA006FFE1CBB77DC0030F296 /* JHChartHeader.h */,
@@ -266,7 +266,7 @@
 				7DEA76361F0A34200060D893 /* JHIndexPath.h */,
 				7DEA76371F0A34200060D893 /* JHIndexPath.m */,
 			);
-			path = JHChart;
+			path = JFChart;
 			sourceTree = "<group>";
 		};
 		AAF615181CBF9E7F00E066C3 /* GIFResource */ = {
@@ -298,9 +298,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA5E2BAD1CBA298F00FC19EE /* JHChartDemo */ = {
+		AA5E2BAD1CBA298F00FC19EE /* JFChartDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA5E2BDB1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JHChartDemo" */;
+			buildConfigurationList = AA5E2BDB1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JFChartDemo" */;
 			buildPhases = (
 				AA5E2BAA1CBA298F00FC19EE /* Sources */,
 				AA5E2BAB1CBA298F00FC19EE /* Frameworks */,
@@ -310,14 +310,14 @@
 			);
 			dependencies = (
 			);
-			name = JHChartDemo;
+			name = JFChartDemo;
 			productName = JHChartDemo;
-			productReference = AA5E2BAE1CBA298F00FC19EE /* JHChartDemo.app */;
+			productReference = AA5E2BAE1CBA298F00FC19EE /* JFChartDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA5E2BC61CBA298F00FC19EE /* JHChartDemoTests */ = {
+		AA5E2BC61CBA298F00FC19EE /* JFChartDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA5E2BDE1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JHChartDemoTests" */;
+			buildConfigurationList = AA5E2BDE1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JFChartDemoTests" */;
 			buildPhases = (
 				AA5E2BC31CBA298F00FC19EE /* Sources */,
 				AA5E2BC41CBA298F00FC19EE /* Frameworks */,
@@ -328,14 +328,14 @@
 			dependencies = (
 				AA5E2BC91CBA298F00FC19EE /* PBXTargetDependency */,
 			);
-			name = JHChartDemoTests;
+			name = JFChartDemoTests;
 			productName = JHChartDemoTests;
-			productReference = AA5E2BC71CBA298F00FC19EE /* JHChartDemoTests.xctest */;
+			productReference = AA5E2BC71CBA298F00FC19EE /* JFChartDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA5E2BD11CBA298F00FC19EE /* JHChartDemoUITests */ = {
+		AA5E2BD11CBA298F00FC19EE /* JFChartDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA5E2BE11CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JHChartDemoUITests" */;
+			buildConfigurationList = AA5E2BE11CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JFChartDemoUITests" */;
 			buildPhases = (
 				AA5E2BCE1CBA298F00FC19EE /* Sources */,
 				AA5E2BCF1CBA298F00FC19EE /* Frameworks */,
@@ -346,9 +346,9 @@
 			dependencies = (
 				AA5E2BD41CBA298F00FC19EE /* PBXTargetDependency */,
 			);
-			name = JHChartDemoUITests;
+			name = JFChartDemoUITests;
 			productName = JHChartDemoUITests;
-			productReference = AA5E2BD21CBA298F00FC19EE /* JHChartDemoUITests.xctest */;
+			productReference = AA5E2BD21CBA298F00FC19EE /* JFChartDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +358,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = JH;
+				ORGANIZATIONNAME = JF;
 				TargetAttributes = {
 					AA5E2BAD1CBA298F00FC19EE = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -374,11 +374,12 @@
 					};
 				};
 			};
-			buildConfigurationList = AA5E2BA91CBA298F00FC19EE /* Build configuration list for PBXProject "JHChartDemo" */;
+			buildConfigurationList = AA5E2BA91CBA298F00FC19EE /* Build configuration list for PBXProject "JFChartDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -387,9 +388,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA5E2BAD1CBA298F00FC19EE /* JHChartDemo */,
-				AA5E2BC61CBA298F00FC19EE /* JHChartDemoTests */,
-				AA5E2BD11CBA298F00FC19EE /* JHChartDemoUITests */,
+				AA5E2BAD1CBA298F00FC19EE /* JFChartDemo */,
+				AA5E2BC61CBA298F00FC19EE /* JFChartDemoTests */,
+				AA5E2BD11CBA298F00FC19EE /* JFChartDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -488,12 +489,12 @@
 /* Begin PBXTargetDependency section */
 		AA5E2BC91CBA298F00FC19EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA5E2BAD1CBA298F00FC19EE /* JHChartDemo */;
+			target = AA5E2BAD1CBA298F00FC19EE /* JFChartDemo */;
 			targetProxy = AA5E2BC81CBA298F00FC19EE /* PBXContainerItemProxy */;
 		};
 		AA5E2BD41CBA298F00FC19EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA5E2BAD1CBA298F00FC19EE /* JHChartDemo */;
+			target = AA5E2BAD1CBA298F00FC19EE /* JFChartDemo */;
 			targetProxy = AA5E2BD31CBA298F00FC19EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -636,7 +637,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JH.JHChartDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHChartDemo.app/JHChartDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFChartDemo.app/JFChartDemo";
 			};
 			name = Debug;
 		};
@@ -648,7 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JH.JHChartDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHChartDemo.app/JHChartDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFChartDemo.app/JFChartDemo";
 			};
 			name = Release;
 		};
@@ -679,7 +680,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA5E2BA91CBA298F00FC19EE /* Build configuration list for PBXProject "JHChartDemo" */ = {
+		AA5E2BA91CBA298F00FC19EE /* Build configuration list for PBXProject "JFChartDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA5E2BD91CBA298F00FC19EE /* Debug */,
@@ -688,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA5E2BDB1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JHChartDemo" */ = {
+		AA5E2BDB1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JFChartDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA5E2BDC1CBA298F00FC19EE /* Debug */,
@@ -697,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA5E2BDE1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JHChartDemoTests" */ = {
+		AA5E2BDE1CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JFChartDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA5E2BDF1CBA298F00FC19EE /* Debug */,
@@ -706,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA5E2BE11CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JHChartDemoUITests" */ = {
+		AA5E2BE11CBA298F00FC19EE /* Build configuration list for PBXNativeTarget "JFChartDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA5E2BE21CBA298F00FC19EE /* Debug */,
