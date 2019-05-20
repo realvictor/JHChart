@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JHChartDemo.xcodeproj">
+      location = "self:/Users/victor/JHChart/JFChartDemo.xcodeproj">
    </FileRef>
 </Workspace>
